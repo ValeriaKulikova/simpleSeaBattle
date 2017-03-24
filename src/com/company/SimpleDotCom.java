@@ -8,6 +8,10 @@ public class SimpleDotCom {
         this.locationCells = locationCells;
     }
 
+    void setNumOfHits(int numOfHits) {
+        this.numOfHits = numOfHits;
+    }
+
     String checkYourself(String stringGuess){
         int guess = Integer.parseInt(stringGuess);
         String result = "Мимо";
